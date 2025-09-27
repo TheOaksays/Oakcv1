@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>oak CV V1</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Monomaniac+One&display=swap');
+        body {
+            margin: 0;
+            padding: 0;
+            background-color: rgb(0, 0, 0);
+        }
+
+        .manu-bra a {
+            text-decoration: none;
+            font-family: monospace;
+            color: white;
+            font-size: 1.3rem;
+            margin: 0px 10px;
+        }
+
+        .manu-bra a:hover {
+            color: rgb(0, 255, 200);
+        }
+
+        .logo-bra img {
+            width: 75px;
+        }
+
+        .social-bra i {
+            font-size: 1.3rem;
+            margin: 0px 10px;
+            color: white;
+        }
+
+        .social-bra i:hover {
+            cursor: pointer;
+            color: rgb(0, 255, 200);
+        }
+
+        .sau-bra {
+            position: relative;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin: 20px 100px;
+        }
+        .logo-bra{
+            position: absolute;
+            left: 50%;
+            transform: translateX(-50%);
+        }
+
+        .title-section {
+            font-family: monospace;
+            text-align: center;
+            margin-top: 150px;
+            
+        }
+
+        .a-title {
+            color: white;
+        }
+
+        #job-title {
+            font-family: 2rem;
+            color: rgb(0, 160, 160);
+        }
+
+        .img-show {
+            display: inline-block;
+            border: 3px solid rgb(0, 177, 121);
+            width: 250px;
+            height: 250px;
+            border-radius: 250px;
+            padding: 10px;
+        }
+
+        .img-section{
+            text-align: center;
+            margin-top: 0%;
+            margin-top: 50px;
+        }
+        .img-show img{
+            width: 250px;
+            height: 250px;
+            border-radius: 250px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="sau-bra">
+        <div class="manu-bra">
+            <a href="#">Portfolio</a>
+            <a href="#">About Me</a>
+            <a href="#">Get In Touch</a>
+        </div>
+        <div class="logo-bra">
+            <img src="./image/logo.png" alt="logo">
+        </div>
+        <div class="social-bra">
+            <i class="fa-brands fa-github"></i>
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-linkedin-in"></i>
+        </div>
+    </div>
+
+    <div class="title-section">
+        <h1 class="a-title">Sirawit Srisamarng</h1>
+        <h1 id="job-title">Freelance Web Developer</h1>
+        <h1 class="a-title">Based In THAILAND</h1>
+    </div>
+
+    <div class="img-section">
+        <div class="img-show">
+            <img src="./image/me.png" alt="">
+        </div>
+    </div>
+</body>
+
+</html>
